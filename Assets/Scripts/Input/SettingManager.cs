@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingManager : Singleton<SettingManager>
+namespace TCP
 {
+    public class SettingManager : Singleton<SettingManager>
+    {
 
-    public CameraControlSetting cameraControlSetting;
-    public PlayerControlSetting playerControlSetting;
+        public CameraControlSetting cameraControlSetting;
+        public PlayerControlSetting playerControlSetting;
+
+    }
 
 }
